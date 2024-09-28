@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header-imperium">
         <nav>
             <ul class="nav-menu">
                 <li>
@@ -59,8 +61,60 @@
                         Contact
                     </a>
                 </li>
+                <li>
+                    <a href="store_locator.html">
+                        Store Locater
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>
+                Store Locations
+            </h2>
+            <input type="text" id="Locations" placeholder="Enter Your Locations">
+            <button onclick="FindStores()">
+                Search
+            </button>
+        </section>
+
+        <section id="Store-list">
+            <h2>
+                Online Stores
+            </h2>
+            <ul>
+                <li>
+                    <a href="https://www.etsy.com/market/40k_wardog?msclkid=15ac3d4b9de019aebc615bbc16d85fc7">
+                        EEtsy.com
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.adeptusars.com/miniatures#:~:text=Some%20of%20the%20most%20popular%20online%20retailers%3A%201,well%20as%20other%20tabletop%20games.%20...%20More%20items">
+                        Adeptus Ars
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.dicehead.com/">
+                        Dicehead.com
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>
+                Store Locations
+            </h2>
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="500" height="450">
+            </iframe>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Warhammer 40k Fan Site
+        </p>
+    </footer>
 </body>
 </html>

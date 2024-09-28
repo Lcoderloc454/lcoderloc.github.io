@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header-imperium">
         <nav>
-            <ul class="nav-menu">
+            <ul class="nav.forum">
                 <li>
                     <a href="index.html">
                     Home
@@ -59,8 +61,204 @@
                         Contact
                     </a>
                 </li>
+                <li>
+                    <a href="store_locator.html">
+                        Store Locater
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>
+                Welcome to Warhammer 40k Forum
+            </h2>
+            <p>
+                Join the conversation with other Warhammer 40k fans! Discuss battle strategies, share your favorite armies and characters, post battle reports, or ask questions about painting and modeling.
+            </p>
+            <p>
+                <strong>
+                    Forum Rules:
+                </strong>
+                Please be respectful, stay on topic, and avoid spamming. This is a friendly space for fans of all experience levels to connect and learn from each other.
+            </p>
+        </section>
+
+        <section id="forum-categories">
+            <article>
+                <h3>
+                    Tactics
+                </h3>
+                <p>
+                    Discuss battlefield strategies, unit combinations, and tatics for various factions.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Best Space Marine Tactics for beginners
+                        </a> 
+                        - Post by User123
+                    </li>
+                    <li>
+                        <a href="#">
+                            How to counter Tyranid swarms?
+                        </a> 
+                        - Onefiend41
+                    </li>
+                    <li>
+                        <a href="#">
+                            Imperial Guard vs. Chaos: What's the best approach or how will it end?
+                        </a> 
+                        - Posted by thoriez35
+                    </li>
+                </ul>
+                <a href="#">
+                    View more topics
+                </a>
+            </article>
+
+            <article>
+                <h3>
+                    Painting and Modeling
+                </h3>
+                <p>
+                    Share your latest models, ask for advice, or show off your painting techniques.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Best way to paint Blood Angels armor?
+                        </a>
+                        - Posted by Angtarv523
+                    </li>
+                    <li>
+                        <a href="#">
+                            Show your custom conversations!
+                        </a>
+                        - Posted by Orckeios89
+                    </li>
+                    <li>
+                        <a href="#">
+                            How to paint Tyranid carapaces?
+                        </a>
+                        - Posted by Tzevatgo12
+                    </li>
+                </ul>
+                <a href="#">
+                    View more topics
+                </a>
+            </article>
+
+            <article>
+                <h3>
+                    Lore Discussions
+                </h3>
+                <p>
+                    Explore the vast lore of Warhammer 40k Universe, debate the history of factions, and uncover hidden details in the storylines.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Who is the most powerful Chaos God?
+                        </a>
+                        - Posted by Provaetch14
+                    </li>
+                    <li>
+                        <a href="#">
+                            The Horus Heresy: what would you change and was Horus is right of doing the uprising?
+                        </a>
+                        - Posted by LittleRedMist25
+                    </li>
+                    <li>
+                        <a href="#">
+                            Exploring the mysteries of the Black Library and would it be good to do so? 
+                        </a>
+                        - Posted by grandvant21
+                    </li>
+                </ul>
+                <a href="#">
+                    View more topics
+                </a>
+            </article>
+
+            <article>
+                <h3>
+                    General Discussion
+                </h3>
+                <p>
+                    Talk about anything Warhammer 40k related that doesn't fit into other catagories.
+                </p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Favorite Warhammer 40k video games
+                        </a>
+                        - Posted by Tactistionguy25
+                    </li>
+                    <li>
+                        <a href="#">
+                            What faction should I start with as a starter?
+                        </a>
+                        - Posted by Wmans56
+                    </li>
+                    <li>
+                        <a href="#">
+                            Upcoming releases you're excited about?
+                        </a>
+                        - Posted by FatGurgle256
+                    </li>
+                </ul>
+                <a href="#">
+                    View more topics
+                </a>
+            </article>
+        </section>
+
+        <section id="create-post">
+            <h2>
+                Create a New Post
+            </h2>
+            <form action="submit_post.php" method="POST">
+                <label for="post-title">
+                    Post Title:
+                </label>
+                <input type="text" id="post-title" name="post-title" required>
+
+                <label for="category">
+                    Category
+                </label>
+                <select id="category" name="category" required>
+                    <option value="tactics">
+                        Tactics
+                    </option>
+                    <option value="painting_modeling">
+                        Painting and Modeling
+                    </option>
+                    <option value="lore_discussion">
+                        Lore Discussion
+                    </option>
+                    <option value="general_discussion">
+                        General Discussion
+                    </option>
+                </select>
+
+                <label for="post-content">
+                    Content:
+                </label>
+                <textarea id="post-content" name="post-content" rows="8" required>
+                </textarea>
+
+                <button type="submit">
+                    Submit Post
+                </button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Warhammer 40k Fan Site
+        </p>
+    </footer>
 </body>
 </html>

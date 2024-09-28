@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
 <body>
-    <header>
+    <header class="header-imperium">
         <nav>
             <ul class="nav-menu">
                 <li>
@@ -59,8 +61,153 @@
                         Contact
                     </a>
                 </li>
+                <li>
+                    <a href="store_locator.html">
+                        Store Locater
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
+    <main>
+        <section>
+            <h2>
+                Welcome to the Battle Reports
+            </h2>
+            <p>
+                Explore the battle fought in the Warhammer 40k universe. Each Report details strategies, unit compositions, and outcomes of significant encounters.
+            </p>
+        </section>
+
+        <section id="battle_reports">
+            <h2>
+                Recent Battle Reports
+            </h2>
+            <article>
+                <h3>
+                    Siege of Terra
+                </h3>
+                <p>
+                    <strong>
+                        Date:
+                    </strong>
+                    13th of Secundus
+                </p>
+                <p>
+                    <strong>
+                        Factions:
+                    </strong>
+                    Imperial Guard Vs. Chaos Space Marines
+                </p>
+                <p>
+                    <strong>
+                        Summary:
+                    </strong>
+                    The Imperial Guard Launched a desperate defense against the encroaching forces of Chaos...
+                </p>
+                <img src="images/Siege_of_Terra.jpg.png" alt="Siege of Terra">
+                <p>
+                    <a href="https://wh40k.lexicanum.com/wiki/Siege_of_Terra">
+                        Read more
+                    </a>
+                </p>
+            </article>
+            <article>
+                <h3>
+                    Battle of Macragge
+                </h3>
+                <p>
+                    <strong>
+                        Date:
+                    </strong>
+                    745 M41
+                </p>
+                <p>
+                    <strong>
+                        Factions:
+                    </strong>
+                    Ultramarines vs. Tyranids
+                </p>
+                <p>
+                    <strong>
+                        Summary:
+                    </strong>
+                    In a brutal conflict, the Ultramarines fought valiantly to defend their home against the Tyranid swarm..
+                </p>
+                <img src="images/Battle_of_Macragge.jpg.png" alt="Battle of Macragge">
+                <p>
+                    <a href="https://wh40k.lexicanum.com/wiki/Battle_for_Macragge">
+                        Read more
+                    </a>
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>
+                Featured Battle Report
+            </h2>
+            <h3>
+                The Fall of Cadia
+            </h3>
+            <p>
+                <strong>
+                    Date:
+                </strong>
+                999.M41
+            </p>
+            <p>
+                <strong>
+                    Factions:
+                </strong>
+                Astra Militarum vs. Chaos Forces
+            </p>
+            <p>
+                <strong>
+                    Summary:
+                </strong>
+                In this monumental clash, the forces of Chaos besieged the fortress world of Cadiia. Despite the bravery of the Astura Militarum, the forces of Chaos unleashed devastating power...
+            </p>
+            <img src="images/Fall_of_Cadia.jpg" alt="Fall of Cadia">
+            <p>
+                <a href="https://wh40k.lexicanum.com/wiki/Cadia">
+                    Read More
+                </a>
+            </p>
+        </section>
+
+        <section>
+            <h2>
+                Submit your Battle Report
+            </h2>
+            <form action="submit_report.php" method="POST">
+                <label for="title">
+                    Battle Title:
+                </label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="date">
+                    Date of Battle
+                </label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="factions">
+                    Factions Involved:
+                </label>
+                <input type="text" id="factions" name="factions" required>
+
+                <label for="Summary">
+                    Summary:
+                </label>
+                <textarea name="Summary" name="Summary" required>
+                </textarea>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy; 2024 Warhammer 40k Fan Site
+        </p>
+    </footer>
 </body>
 </html>
