@@ -114,12 +114,6 @@ a {
     background-color: red;
 }
 
-.hero {
-    text-align: center;
-    background: url('../images/warhammer_hero.jpg');
-    padding: 100px 20px;
-}
-
 .faction-list {
     display: flex;
     justify-content: space-around;
@@ -176,4 +170,115 @@ footer {
 #imperium {
     background-color: black;
     padding: 20px;
+}
+
+.button-shortknowing {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttom-favorites {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-helpful {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-reports {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-warhammerevents {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-talk {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-contact {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-store {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button-findout {
+    background-color: crimson;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#chaos {
+    background-color: gray;
+    padding: 20px;
+}
+
+#xeno {
+    background-color: rgb(59, 3, 59);
+    padding: 20px;
+}
+
+#timeline {
+    background-color: black;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
 }
