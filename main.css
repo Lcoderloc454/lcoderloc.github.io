@@ -1,4 +1,4 @@
-@media (max.width: 768px) {
+@media (max-width: 768px) {
     .nav-menu {
         flex-direction: column;
         text-align: center;
@@ -67,7 +67,8 @@ footer {
 }
 
 h1, h2, h3, {
-    color: firebrick
+    font-family: 'Arial', sans-serif;
+    color: #333
 }
 
 .special0feature {
@@ -153,8 +154,8 @@ footer {
 }
 
 .back {
-    background-image: url('images/imperial_aquila.png');
-    background-size: cover;
+    background-image: ;
+    background-size: 500px;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -170,4 +171,9 @@ footer {
 .main {
     padding: 20px;
     text-align: center;
+}
+
+#imperium {
+    background-color: black;
+    padding: 20px;
 }
