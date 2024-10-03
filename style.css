@@ -48,12 +48,6 @@ a {
     background-color: red;
 }
 
-.hero {
-    text-align: center;
-    background: url('../images/warhammer_hero.jpg');
-    padding: 100px 20px;
-}
-
 .faction-list {
     display: flex;
     justify-content: space-around;

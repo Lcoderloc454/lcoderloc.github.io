@@ -268,7 +268,7 @@ footer {
 }
 
 #xeno {
-    background-color: rgb(59, 3, 59);
+    background-color: rgba(61, 27, 88, 0.521);
     padding: 20px;
 }
 
@@ -281,4 +281,68 @@ img {
     width: 100%;
     height: auto;
     max-width: 500px;
+}
+
+#Imperiums {
+    background-color: black;
+    padding: 20px;
+}
+
+#Chaoses {
+    background-color: rgba(166, 51, 219, 0.521);
+    padding: 20px;
+}
+
+#Orkses {
+    background-color: rgba(90, 19, 33, 0.685);
+    padding: 20px;
+}
+
+#Tyranides {
+    background-color: rgb(71, 112, 24);
+    padding: 20px;
+}
+
+#Spaces {
+    background-color: rgb(11, 114, 114);
+}
+
+#Paintings {
+    background-color: rgb(58, 14, 14);
+    padding: 20px;
+}
+
+#Painting {
+    background-color: rgb(65, 42, 42);
+    padding: 20px;
+}
+
+#siege {
+    background-color: rgb(102, 51, 15);
+    padding: 20px;
+}
+
+#battle {
+    background-color: rgb(94, 94, 197);
+    padding: 20px;
+}
+
+#fall {
+    background-color: rgba(92, 8, 25, 0.637);
+    padding: 20px;
+}
+
+#SM {
+    background-color: rgb(61, 63, 179);
+    padding: 20px;
+}
+
+#CSM {
+    background-color: rgba(124, 37, 55, 0.24);
+    padding: 20px;
+}
+
+#NC {
+    background-color: rgba(31, 182, 31, 0.644);
+    padding: 20px;
 }
